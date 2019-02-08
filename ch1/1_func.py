@@ -25,7 +25,12 @@ if __name__ == "__main__":
     print (s_int, 'is', type(s_int))
     print (f_str, 'is', type(f_str))
     print (i_str, 'is', type(i_str))
-    print ('\nstring', '"' + string + '" has', len(string), 'characters')
+    print ('\nstring', '' + string + '" has', len(string), 'characters')
     str_ls = string.split()
     print ('split string:', str_ls)
     print ('joined list:', ' '.join(str_ls))
+    
+    
+      
+        
+        

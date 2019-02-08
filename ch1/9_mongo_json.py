@@ -25,7 +25,7 @@ if __name__ == '__main__':
     json_file = 'data/names.json'
     dump_json(json_file, dict_ls)
     data = read_json(json_file)
-    obj = conn.conn('test')
+    obj = conn.conn('mcklayne')
     db = obj.getDB()
     names = db.names
     names.drop()
